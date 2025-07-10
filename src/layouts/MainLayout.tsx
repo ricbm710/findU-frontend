@@ -4,9 +4,9 @@ import { Outlet } from "react-router";
 const MainLayout = () => {
   return (
     <>
-      <div>Navbar</div>
+      <div className="bg-prussian-blue text-white">Navbar</div>
       <Outlet />
-      <div>Footer</div>
+      <div className="bg-air-superiority-blue text-white">Footer</div>
     </>
   );
 };

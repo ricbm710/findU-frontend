@@ -1,1 +1,11 @@
 @import "tailwindcss";
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@theme {
+  --font-main: "Monserrat", "sans-serif";
+
+  --color-prussian-blue: #003049;
+  --color-papaya-whip: #fdf0d5;
+  --color-air-superiority-blue: #669bbc;
+}
