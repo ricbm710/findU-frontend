@@ -1,12 +1,22 @@
+//rrd
+import { Route, Routes } from "react-router";
 //css
 import "./App.css";
+//layouts
+import MainLayout from "./layouts/MainLayout";
+//pages
+import Home from "./pages/Home/Home";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1 className="text-blue-400">Clean Start</h1>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
     </>
   );
-}
+};
 
 export default App;
